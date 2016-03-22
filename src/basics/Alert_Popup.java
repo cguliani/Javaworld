@@ -14,6 +14,7 @@ public class Alert_Popup {
 		driver.findElement(By.xpath("html/body/table[3]/tbody/tr[1]/td[2]/table/tbody/tr/td/div[4]/form/input")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		//driver.switchTo().alert().sendKeys("some text");
+		//test comment
 		driver.switchTo().alert().accept(); //Accept = OK done yes
 		//driver.switchTo().alert().dismiss();
 	}
